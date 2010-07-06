@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A316F49E-6490-47BF-A409-825BD5955DB1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Azzeton.Shared</RootNamespace>
+    <AssemblyName>Azzeton.Shared</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Delegates\Delegates.cs" />
+    <Compile Include="Enums\DataHostType.cs" />
+    <Compile Include="Enums\InbuiltUser.cs" />
+    <Compile Include="Enums\MessageResponse.cs" />
+    <Compile Include="Enums\ModuleType.cs" />
+    <Compile Include="Enums\ResultType.cs" />
+    <Compile Include="Enums\SystemSettingTitle.cs" />
+    <Compile Include="Enums\UserSettingTitle.cs" />
+    <Compile Include="EventArgs\GenericEventArgs.cs" />
+    <Compile Include="EventArgs\StatusEventArgs.cs" />
+    <Compile Include="Interfaces\Data Source\DataHostAuthentication.cs" />
+    <Compile Include="Interfaces\Access\IAccess.cs" />
+    <Compile Include="Interfaces\ICategory.cs" />
+    <Compile Include="Interfaces\ISetting.cs" />
+    <Compile Include="Interfaces\IGeneric.cs" />
+    <Compile Include="Interfaces\Access\IGroup.cs" />
+    <Compile Include="Interfaces\Access\IGroupRight.cs" />
+    <Compile Include="Interfaces\IAudit.cs" />
+    <Compile Include="Interfaces\Data Source\IHost.cs" />
+    <Compile Include="Interfaces\IModule.cs" />
+    <Compile Include="Interfaces\IResource.cs" />
+    <Compile Include="Interfaces\Access\IUser.cs" />
+    <Compile Include="Interfaces\Access\IUserGroup.cs" />
+    <Compile Include="Interfaces\Access\IUserRight.cs" />
+    <Compile Include="Interfaces\Access\IUserSetting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\ProductSettings.cs" />
+    <Compile Include="Type\ActionResult.cs" />
+    <Compile Include="Interfaces\IActionResult.cs" />
+    <Compile Include="Type\DataSource.cs" />
+    <Compile Include="Type\DataCommand.cs" />
+    <Compile Include="Type\ModuleInformation.cs" />
+    <Compile Include="Utils\ClipBoard.cs" />
+    <Compile Include="Utils\Compressor.cs" />
+    <Compile Include="Utils\Converter.cs" />
+    <Compile Include="Utils\CSV.cs" />
+    <Compile Include="Utils\EventSupresser.cs" />
+    <Compile Include="Utils\FileSystem.cs" />
+    <Compile Include="Utils\General.cs" />
+    <Compile Include="Utils\ListViewColumnSorter.cs" />
+    <Compile Include="Utils\MAPI.cs" />
+    <Compile Include="Utils\Serializer.cs" />
+    <Compile Include="Utils\SizeManager.cs" />
+    <Compile Include="Security\SuperCryptor.cs" />
+    <Compile Include="Utils\TXT.cs" />
+    <Compile Include="Win32\Keyboard.cs" />
+    <Compile Include="Win32\Network.cs" />
+    <Compile Include="Win32\Volume.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Design\Design.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\Application\" />
+    <Folder Include="Interfaces\System\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

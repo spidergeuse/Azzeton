@@ -1,0 +1,137 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton", "Azzeton\Azzeton.csproj", "{93592EF8-20A3-45F4-BDF3-7AAE1C8CF64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton.Core", "Azzeton.Core\Azzeton.Core.csproj", "{7D044D26-51BD-424D-B681-2724A07C2959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton.Component", "Azzeton.Component\Azzeton.Component.csproj", "{386D488E-34D1-4675-8091-13DAD01B936A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton.Shared", "Azzeton.Shared\Azzeton.Shared.csproj", "{A316F49E-6490-47BF-A409-825BD5955DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton.MsJet", "Azzeton.MsJet\Azzeton.MsJet.csproj", "{3A77F0C3-6B78-4E35-A572-EE7042FAF404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton.MySQL", "Azzeton.MySQL\Azzeton.MySQL.csproj", "{437B082A-AC38-4B5E-8409-D79C4FBA2686}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Azzeton.Setup", "Azzeton.Setup\Azzeton.Setup.vdproj", "{EBC6F54D-2FC1-406C-978F-15644CBF239C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton.Resource", "Azzeton.Resource\Azzeton.Resource.csproj", "{5F138F26-3E83-4A68-9AE2-9F8AA62FA506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EBF86EAD-1B50-4119-A4F5-2A4E59FBE514}"
+	ProjectSection(SolutionItems) = preProject
+		Azzeton.vsmdi = Azzeton.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton.Web", "Azzeton.Web\Azzeton.Web.csproj", "{96AD7D10-EAF0-40F1-A5E4-28FF09A1040E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Azzeton.Core", "Test.Azzeton.Core\Test.Azzeton.Core.csproj", "{2AA489FE-1925-43C6-B12A-7786959B7CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azzeton.MsSQL", "Azzeton.MsSQL\Azzeton.MsSQL.csproj", "{34AA49B8-76D2-4FF1-ABDA-540BA598A263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{AFA381EB-53A6-4A15-AEB7-6BCCC9D622DA}"
+	ProjectSection(SolutionItems) = preProject
+		Module.txt = Module.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Azzeton.MySQL", "Test.Azzeton.MySQL\Test.Azzeton.MySQL.csproj", "{58BDAEDF-C664-46F4-B398-D6114C5F868F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs08.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Azzeton.Component\\Azzeton.Component.csproj
+		SccProjectName1 = Azzeton.Component
+		SccLocalPath1 = Azzeton.Component
+		SccProjectUniqueName2 = Azzeton.Core\\Azzeton.Core.csproj
+		SccProjectName2 = Azzeton.Core
+		SccLocalPath2 = Azzeton.Core
+		SccProjectUniqueName3 = Azzeton.MsJet\\Azzeton.MsJet.csproj
+		SccProjectName3 = Azzeton.MsJet
+		SccLocalPath3 = Azzeton.MsJet
+		SccProjectUniqueName4 = Azzeton.MsSQL\\Azzeton.MsSQL.csproj
+		SccProjectName4 = Azzeton.MsSQL
+		SccLocalPath4 = Azzeton.MsSQL
+		SccProjectUniqueName5 = Azzeton.MySQL\\Azzeton.MySQL.csproj
+		SccProjectName5 = Azzeton.MySQL
+		SccLocalPath5 = Azzeton.MySQL
+		SccProjectUniqueName6 = Azzeton.Resource\\Azzeton.Resource.csproj
+		SccProjectName6 = Azzeton.Resource
+		SccLocalPath6 = Azzeton.Resource
+		SccProjectUniqueName7 = Azzeton.Setup\\Azzeton.Setup.vdproj
+		SccProjectName7 = Azzeton.Setup
+		SccLocalPath7 = Azzeton.Setup
+		SccProjectUniqueName8 = Azzeton.Shared\\Azzeton.Shared.csproj
+		SccProjectName8 = Azzeton.Shared
+		SccLocalPath8 = Azzeton.Shared
+		SccProjectUniqueName9 = Azzeton.Web\\Azzeton.Web.csproj
+		SccProjectName9 = Azzeton.Web
+		SccLocalPath9 = Azzeton.Web
+		SccProjectUniqueName10 = Azzeton\\Azzeton.csproj
+		SccProjectName10 = Azzeton
+		SccLocalPath10 = Azzeton
+		SccProjectUniqueName11 = Test.Azzeton.Core\\Test.Azzeton.Core.csproj
+		SccProjectName11 = Test.Azzeton.Core
+		SccLocalPath11 = Test.Azzeton.Core
+		SccProjectUniqueName12 = Test.Azzeton.MySQL\\Test.Azzeton.MySQL.csproj
+		SccProjectName12 = Test.Azzeton.MySQL
+		SccLocalPath12 = Test.Azzeton.MySQL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93592EF8-20A3-45F4-BDF3-7AAE1C8CF64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93592EF8-20A3-45F4-BDF3-7AAE1C8CF64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93592EF8-20A3-45F4-BDF3-7AAE1C8CF64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93592EF8-20A3-45F4-BDF3-7AAE1C8CF64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D044D26-51BD-424D-B681-2724A07C2959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D044D26-51BD-424D-B681-2724A07C2959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D044D26-51BD-424D-B681-2724A07C2959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D044D26-51BD-424D-B681-2724A07C2959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386D488E-34D1-4675-8091-13DAD01B936A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386D488E-34D1-4675-8091-13DAD01B936A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386D488E-34D1-4675-8091-13DAD01B936A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386D488E-34D1-4675-8091-13DAD01B936A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A316F49E-6490-47BF-A409-825BD5955DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A316F49E-6490-47BF-A409-825BD5955DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A316F49E-6490-47BF-A409-825BD5955DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A316F49E-6490-47BF-A409-825BD5955DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A77F0C3-6B78-4E35-A572-EE7042FAF404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A77F0C3-6B78-4E35-A572-EE7042FAF404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A77F0C3-6B78-4E35-A572-EE7042FAF404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A77F0C3-6B78-4E35-A572-EE7042FAF404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437B082A-AC38-4B5E-8409-D79C4FBA2686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437B082A-AC38-4B5E-8409-D79C4FBA2686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437B082A-AC38-4B5E-8409-D79C4FBA2686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437B082A-AC38-4B5E-8409-D79C4FBA2686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC6F54D-2FC1-406C-978F-15644CBF239C}.Debug|Any CPU.ActiveCfg = Debug
+		{EBC6F54D-2FC1-406C-978F-15644CBF239C}.Release|Any CPU.ActiveCfg = Release
+		{5F138F26-3E83-4A68-9AE2-9F8AA62FA506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F138F26-3E83-4A68-9AE2-9F8AA62FA506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F138F26-3E83-4A68-9AE2-9F8AA62FA506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F138F26-3E83-4A68-9AE2-9F8AA62FA506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AD7D10-EAF0-40F1-A5E4-28FF09A1040E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AD7D10-EAF0-40F1-A5E4-28FF09A1040E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AD7D10-EAF0-40F1-A5E4-28FF09A1040E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AD7D10-EAF0-40F1-A5E4-28FF09A1040E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA489FE-1925-43C6-B12A-7786959B7CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA489FE-1925-43C6-B12A-7786959B7CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA489FE-1925-43C6-B12A-7786959B7CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA489FE-1925-43C6-B12A-7786959B7CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AA49B8-76D2-4FF1-ABDA-540BA598A263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AA49B8-76D2-4FF1-ABDA-540BA598A263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AA49B8-76D2-4FF1-ABDA-540BA598A263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AA49B8-76D2-4FF1-ABDA-540BA598A263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BDAEDF-C664-46F4-B398-D6114C5F868F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BDAEDF-C664-46F4-B398-D6114C5F868F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BDAEDF-C664-46F4-B398-D6114C5F868F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BDAEDF-C664-46F4-B398-D6114C5F868F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
