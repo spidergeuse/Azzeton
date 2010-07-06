@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D044D26-51BD-424D-B681-2724A07C2959}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Azzeton.Entity</RootNamespace>
+    <AssemblyName>Azzeton.Core</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\CoreApplication.cs" />
+    <Compile Include="Core\CoreGlobal.cs" />
+    <Compile Include="Core\CoreMessageStack.cs" />
+    <Compile Include="Core\CoreSecurity.cs" />
+    <Compile Include="Core\EntityType.cs" />
+    <Compile Include="Core\GlobalPaths.cs" />
+    <Compile Include="Core\MessageType.cs" />
+    <Compile Include="Core\OpMessage.cs" />
+    <Compile Include="Core\OpMessageEventArgs.cs" />
+    <Compile Include="Entity\Application\Access\Access.cs" />
+    <Compile Include="Entity\Application\Audit\ApplicationAudit.cs" />
+    <Compile Include="Entity\Application\Audit\Audit.cs" />
+    <Compile Include="Entity\Application\Access\GroupRight.cs" />
+    <Compile Include="Entity\Application\Section.cs" />
+    <Compile Include="Entity\Application\Audit\SystemAudit.cs" />
+    <Compile Include="Entity\Application\Access\User.cs" />
+    <Compile Include="Entity\Application\Access\UserGroup.cs" />
+    <Compile Include="Entity\Application\Access\UserRight.cs" />
+    <Compile Include="Entity\Application\Setting\Setting.cs" />
+    <Compile Include="Entity\Application\Setting\UserSetting.cs" />
+    <Compile Include="Entity\Business\Common\Address.cs" />
+    <Compile Include="Entity\Business\Category.cs" />
+    <Compile Include="Entity\Application\Setting\SystemSetting.cs" />
+    <Compile Include="Entity\Business\Common\Contact.cs" />
+    <Compile Include="Entity\Business\Common\ContactOwnerType.cs" />
+    <Compile Include="Entity\Business\DiscountRule.cs" />
+    <Compile Include="Entity\Business\PriceSchedule.cs" />
+    <Compile Include="Entity\Business\Discount.cs" />
+    <Compile Include="Entity\Business\Common\Email.cs" />
+    <Compile Include="Entity\Generic\Basic.cs" />
+    <Compile Include="Entity\Business\Customer.cs" />
+    <Compile Include="Entity\Generic\GenericBase.cs" />
+    <Compile Include="Entity\Generic\GenericEntity.cs" />
+    <Compile Include="Entity\Application\Access\Group.cs" />
+    <Compile Include="Entity\Generic\Indexer.cs" />
+    <Compile Include="Entity\Generic\EntityManager.cs" />
+    <Compile Include="Entity\Business\Order.cs" />
+    <Compile Include="Entity\Business\OrderDetail.cs" />
+    <Compile Include="Entity\Business\Common\Phone.cs" />
+    <Compile Include="Entity\Business\Product.cs" />
+    <Compile Include="Entity\Business\PriceScheduleProduct.cs" />
+    <Compile Include="Entity\Business\Purchase.cs" />
+    <Compile Include="Entity\Business\PurchaseDetail.cs" />
+    <Compile Include="Entity\Business\PurchaseOrder.cs" />
+    <Compile Include="Entity\Business\PurchaseOrderDetail.cs" />
+    <Compile Include="Entity\Business\Sale.cs" />
+    <Compile Include="Entity\Business\SaleDetail.cs" />
+    <Compile Include="Entity\Business\SaleOrder.cs" />
+    <Compile Include="Entity\Business\SaleOrderDetail.cs" />
+    <Compile Include="Entity\Business\Stock.cs" />
+    <Compile Include="Entity\Business\StockDetail.cs" />
+    <Compile Include="Entity\Business\Supplier.cs" />
+    <Compile Include="Entity\Business\Transaction.cs" />
+    <Compile Include="Entity\Business\TransactionDetail.cs" />
+    <Compile Include="Entity\Generic\Manager.cs" />
+    <Compile Include="Module\PluginManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Azzeton.Shared\Azzeton.Shared.csproj">
+      <Project>{A316F49E-6490-47BF-A409-825BD5955DB1}</Project>
+      <Name>Azzeton.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Design\Core.Schema.xsd" />
+    <None Include="Design\Core.Structure.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+Modules must implement a list of interfaces.
+IPlugin - Basic
+IPluginWithUI - Basic for all UI based
+IResourseUser - For all that require the resource repository
+IManager - For all that require access to Managment objects
+
+
+ISetup
+IRequireSetup
+IRequireDatabase
+IFormIntercepter
+IFormTakeOverrer
